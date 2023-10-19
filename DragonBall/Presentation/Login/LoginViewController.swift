@@ -10,7 +10,9 @@ import UIKit
 // MARK: - View Protocol
 protocol LoginViewControllerDelegate {
     var viewState: ((LoginViewState) -> Void)? {get set }
+    var heroesViewModel: HeroesViewControllerDelegate { get }
     func loginTap(email: String?, password: String?)
+   
 }
 
 enum LoginViewState { // estos son los estados de la vista y se lo paso al viewState del protocolo
@@ -52,7 +54,15 @@ class LoginViewController: UIViewController {
         super.viewDidLoad() // LLamo a las funciones
         initViews()
         setObserver()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "LoginToHeroes",
+              let heroesViewController = segue.destination as? HeroesViewController else {
+            return
+            }
         
+        heroesViewController.viewModel = viewModel?.heroesViewModel
     }
     // MARK: - Private Func
     private func initViews() {
@@ -91,7 +101,7 @@ class LoginViewController: UIViewController {
                     
                     
                 case .navigateToNext:
-                    self?.ViewActivityIndicator.isHidden = true
+                    self?.performSegue(withIdentifier: "LoginToHeroes", sender: nil)
                 }
             }
         }

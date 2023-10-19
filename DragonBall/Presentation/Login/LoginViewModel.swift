@@ -15,6 +15,9 @@ class LoginViewModel: LoginViewControllerDelegate {
     
     // MARK: - Properties
     var viewState: ((LoginViewState) -> Void)?
+    var heroesViewModel: HeroesViewControllerDelegate {
+        HeroesViewModel(apiProvider: apiProvider, secureDataProvider: secureDataProvider)
+    }
     
     //MARK: INIT
     init(apiProvider: ApiProviderProtocol,
@@ -57,7 +60,7 @@ class LoginViewModel: LoginViewControllerDelegate {
     
     @objc func onLoginResponse(_ notification: Notification){
         //TODO: Parsear resultado que vendra en notification.userinfo
-        guard let token = notification.userInfo?[NotificationCenter.apiToken] as? String,
+        guard let token = notification.userInfo?[NotificationCenter.tokenKey] as? String,
               !token.isEmpty else {
             return
         }
@@ -77,7 +80,7 @@ class LoginViewModel: LoginViewControllerDelegate {
     
     private func doLoginWith(email: String,password: String) {
         
-        apiProvider.Login(for: email, with: password)
+        apiProvider.login(for: email, with: password)
     }
     
 }

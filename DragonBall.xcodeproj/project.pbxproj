@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0E00292AE0F73000088FC1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3C0E00282AE0F73000088FC1 /* Kingfisher */; };
+		3C0E002C2AE0FEEB00088FC1 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0E002B2AE0FEEB00088FC1 /* Splash.storyboard */; };
+		3C0E002E2AE0FF1B00088FC1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E002D2AE0FF1B00088FC1 /* SplashViewController.swift */; };
+		3C0E00302AE0FF3800088FC1 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E002F2AE0FF3800088FC1 /* SplashViewModel.swift */; };
+		3C35C9D92ADFB35D00EADDAC /* Heroes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C35C9D82ADFB35D00EADDAC /* Heroes.storyboard */; };
+		3C35C9DB2ADFB38300EADDAC /* HeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C35C9DA2ADFB38300EADDAC /* HeroesViewController.swift */; };
+		3C35C9DD2ADFB39A00EADDAC /* HeroesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C35C9DC2ADFB39A00EADDAC /* HeroesViewModel.swift */; };
+		3C35C9E02ADFF5E000EADDAC /* HeroCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C35C9DF2ADFF5E000EADDAC /* HeroCellView.swift */; };
+		3C35C9E22AE0191100EADDAC /* HeroCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C35C9E12AE0191100EADDAC /* HeroCellView.xib */; };
+		3C35C9E52AE0320200EADDAC /* HeroDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C35C9E42AE0320200EADDAC /* HeroDAO.swift */; };
+		3C35C9E72AE0356D00EADDAC /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C35C9E62AE0356D00EADDAC /* CoreDataStack.swift */; };
+		3C35C9EB2AE03F8000EADDAC /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C35C9EA2AE03F8000EADDAC /* Hero.swift */; };
 		3C51F82C2AD5C1E4009455C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51F82B2AD5C1E4009455C0 /* AppDelegate.swift */; };
 		3C51F82E2AD5C1E4009455C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51F82D2AD5C1E4009455C0 /* SceneDelegate.swift */; };
 		3C51F8302AD5C1E4009455C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C51F82F2AD5C1E4009455C0 /* LoginViewController.swift */; };
@@ -41,6 +53,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C0E002B2AE0FEEB00088FC1 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		3C0E002D2AE0FF1B00088FC1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		3C0E002F2AE0FF3800088FC1 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		3C35C9D82ADFB35D00EADDAC /* Heroes.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Heroes.storyboard; sourceTree = "<group>"; };
+		3C35C9DA2ADFB38300EADDAC /* HeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewController.swift; sourceTree = "<group>"; };
+		3C35C9DC2ADFB39A00EADDAC /* HeroesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesViewModel.swift; sourceTree = "<group>"; };
+		3C35C9DF2ADFF5E000EADDAC /* HeroCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCellView.swift; sourceTree = "<group>"; };
+		3C35C9E12AE0191100EADDAC /* HeroCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroCellView.xib; sourceTree = "<group>"; };
+		3C35C9E42AE0320200EADDAC /* HeroDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDAO.swift; sourceTree = "<group>"; };
+		3C35C9E62AE0356D00EADDAC /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		3C35C9EA2AE03F8000EADDAC /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		3C51F8282AD5C1E4009455C0 /* DragonBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C51F82B2AD5C1E4009455C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C51F82D2AD5C1E4009455C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0E00292AE0F73000088FC1 /* Kingfisher in Frameworks */,
 				3CD1F49F2AD713E200C386D1 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +110,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C0E002A2AE0FEC100088FC1 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				3C0E002B2AE0FEEB00088FC1 /* Splash.storyboard */,
+				3C0E002D2AE0FF1B00088FC1 /* SplashViewController.swift */,
+				3C0E002F2AE0FF3800088FC1 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		3C35C9D72ADFB33200EADDAC /* Heores */ = {
+			isa = PBXGroup;
+			children = (
+				3C35C9DE2ADFB86F00EADDAC /* Cell */,
+				3C35C9D82ADFB35D00EADDAC /* Heroes.storyboard */,
+				3C35C9DA2ADFB38300EADDAC /* HeroesViewController.swift */,
+				3C35C9DC2ADFB39A00EADDAC /* HeroesViewModel.swift */,
+			);
+			path = Heores;
+			sourceTree = "<group>";
+		};
+		3C35C9DE2ADFB86F00EADDAC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3C35C9DF2ADFF5E000EADDAC /* HeroCellView.swift */,
+				3C35C9E12AE0191100EADDAC /* HeroCellView.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3C35C9E32AE031EA00EADDAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C35C9E42AE0320200EADDAC /* HeroDAO.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C35C9E82AE03F5A00EADDAC /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				3C35C9E92AE03F6B00EADDAC /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3C35C9E92AE03F6B00EADDAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C35C9EA2AE03F8000EADDAC /* Hero.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3C51F81F2AD5C1E4009455C0 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +187,7 @@
 		3C51F82A2AD5C1E4009455C0 /* DragonBall */ = {
 			isa = PBXGroup;
 			children = (
+				3C35C9E82AE03F5A00EADDAC /* Domain */,
 				3C51F83C2AD5C1E6009455C0 /* Info.plist */,
 				3C51F82B2AD5C1E4009455C0 /* AppDelegate.swift */,
 				3C51F82D2AD5C1E4009455C0 /* SceneDelegate.swift */,
@@ -139,6 +218,8 @@
 		3C51F85E2AD5C244009455C0 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				3C0E002A2AE0FEC100088FC1 /* Splash */,
+				3C35C9D72ADFB33200EADDAC /* Heores */,
 				3C51F8642AD5C356009455C0 /* Login */,
 				3C51F8632AD5C346009455C0 /* Launch */,
 			);
@@ -166,7 +247,9 @@
 		3C51F8612AD5C2F3009455C0 /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				3C35C9E32AE031EA00EADDAC /* Models */,
 				3CD1F4A02AD714B900C386D1 /* SecureDataProvider.swift */,
+				3C35C9E62AE0356D00EADDAC /* CoreDataStack.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -215,6 +298,7 @@
 			name = DragonBall;
 			packageProductDependencies = (
 				3CD1F49E2AD713E200C386D1 /* KeychainSwift */,
+				3C0E00282AE0F73000088FC1 /* Kingfisher */,
 			);
 			productName = DragonBall;
 			productReference = 3C51F8282AD5C1E4009455C0 /* DragonBall.app */;
@@ -290,6 +374,7 @@
 			mainGroup = 3C51F81F2AD5C1E4009455C0;
 			packageReferences = (
 				3CD1F49D2AD713E200C386D1 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				3C0E00272AE0F73000088FC1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 3C51F8292AD5C1E4009455C0 /* Products */;
 			projectDirPath = "";
@@ -309,7 +394,10 @@
 			files = (
 				3C51F83B2AD5C1E6009455C0 /* LaunchScreen.storyboard in Resources */,
 				3C51F8382AD5C1E6009455C0 /* Assets.xcassets in Resources */,
+				3C35C9D92ADFB35D00EADDAC /* Heroes.storyboard in Resources */,
+				3C35C9E22AE0191100EADDAC /* HeroCellView.xib in Resources */,
 				3C51F8332AD5C1E4009455C0 /* Main.storyboard in Resources */,
+				3C0E002C2AE0FEEB00088FC1 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,12 +422,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0E00302AE0FF3800088FC1 /* SplashViewModel.swift in Sources */,
 				3C51F8662AD5CD49009455C0 /* LoginViewModel.swift in Sources */,
 				3C51F8302AD5C1E4009455C0 /* LoginViewController.swift in Sources */,
+				3C35C9DB2ADFB38300EADDAC /* HeroesViewController.swift in Sources */,
+				3C35C9E72AE0356D00EADDAC /* CoreDataStack.swift in Sources */,
 				3CD1F4A12AD714B900C386D1 /* SecureDataProvider.swift in Sources */,
+				3C0E002E2AE0FF1B00088FC1 /* SplashViewController.swift in Sources */,
+				3C35C9DD2ADFB39A00EADDAC /* HeroesViewModel.swift in Sources */,
+				3C35C9E52AE0320200EADDAC /* HeroDAO.swift in Sources */,
+				3C35C9E02ADFF5E000EADDAC /* HeroCellView.swift in Sources */,
 				3C51F8362AD5C1E4009455C0 /* DragonBall.xcdatamodeld in Sources */,
 				3C51F82C2AD5C1E4009455C0 /* AppDelegate.swift in Sources */,
 				3CD1F4A32AD7177B00C386D1 /* ApiProvider.swift in Sources */,
+				3C35C9EB2AE03F8000EADDAC /* Hero.swift in Sources */,
 				3C51F82E2AD5C1E4009455C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,6 +785,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3C0E00272AE0F73000088FC1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
 		3CD1F49D2AD713E200C386D1 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
@@ -700,6 +804,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3C0E00282AE0F73000088FC1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C0E00272AE0F73000088FC1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		3CD1F49E2AD713E200C386D1 /* KeychainSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3CD1F49D2AD713E200C386D1 /* XCRemoteSwiftPackageReference "keychain-swift" */;
